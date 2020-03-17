@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
