@@ -40,7 +40,7 @@ const queries = [
     transformer: ({ data }) => flatten(data.posts.edges),
     indexName: `Posts`,
     settings: {
-      attributesToSnippet: ["excerpt:20"],
+      attributesToSnippets: ["excerpt:20"],
     },
   },
 ]
