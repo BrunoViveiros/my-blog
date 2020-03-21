@@ -8,7 +8,7 @@ module.exports = {
     position: `Developer`,
     description: `A blog about frontend development and other cool stuff.`,
     author: `@BrunoViveiros`,
-    siteUrl: `https://johndoe.com.br`
+    siteUrl: `https://johndoe.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -83,6 +83,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
