@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 
+import getThemeColor from "../../utils/getThemeColor"
+
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
@@ -32,7 +34,7 @@ const MenuBar = () => {
           title="Voltar para Home"
           cover
           direction="right"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.6}
         >
           <S.MenuBarItem>
@@ -44,7 +46,7 @@ const MenuBar = () => {
           title="Pesquisar"
           cover
           direction="right"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.6}
         >
           <S.MenuBarItem>
